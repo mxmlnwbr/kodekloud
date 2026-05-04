@@ -18,6 +18,7 @@ Born from Heroku's experience deploying hundreds of thousands of apps, it codifi
 
 ### I. Codebase
 
+One codebase tracked in revision control, many deploys. Git is used for this reason.
 
 ### II. Dependencies
 
