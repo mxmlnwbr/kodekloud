@@ -6,6 +6,18 @@
 
 ---
 
+## Overview
+
+Docker is a platform for packaging and running applications in **containers** — lightweight, isolated environments that bundle the app and all its dependencies.
+
+- **Image** — read-only blueprint (built from a Dockerfile)
+- **Container** — running instance of an image
+- **Registry** — stores and distributes images (e.g. Docker Hub)
+
+Key benefit: "works on my machine" becomes "works everywhere" — same image runs identically in dev, staging, and prod.
+
+---
+
 ## Sections
 
 ### 1. Introduction to Containers
