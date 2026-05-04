@@ -26,33 +26,43 @@ Explicitly declare (requirements.txt, package.json) and isolate dependencies (ve
 
 ### III. Config
 
+Store config in the environment.
 
 ### IV. Backing Services
 
+Treat backing services as attached resources.
 
 ### V. Build, Release, Run
 
+Strictly separate build and run stages.
 
 ### VI. Processes
 
+Execute the app as one or more stateless processes.
 
 ### VII. Port Binding
 
+Export services via port binding.
 
 ### VIII. Concurrency
 
+Scale out via the process model. Apps should scale horizontally (more processes), not vertically (bigger machines).
 
 ### IX. Disposability
 
+Maximize robustness with fast startup and graceful shutdown.
 
 ### X. Dev/Prod Parity
 
+Keep development, staging, and production as similar as possible.
 
 ### XI. Logs
 
+Treat logs as event streams.
 
 ### XII. Admin Processes
 
+Run admin/management tasks as one-off processes.
 
 ---
 
