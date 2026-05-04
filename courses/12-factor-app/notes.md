@@ -53,7 +53,7 @@ Scale out via the process model. Apps should scale horizontally (more processes)
 
 ### IX. Disposability
 
-Maximize robustness with fast startup and graceful shutdown.
+Maximize robustness with fast startup and graceful shutdown. Processes should start in seconds and shut down gracefully on SIGTERM — finishing in-flight requests, then exiting. This enables elastic scaling, rapid deploys, and resilience to crashes.
 
 ### X. Dev/Prod Parity
 
