@@ -26,7 +26,7 @@ Explicitly declare (requirements.txt, package.json) and isolate dependencies (ve
 
 ### III. Config
 
-Store config in the environment.
+Store config in the environment. The same codebase deploys to dev, staging, and prod — only the env vars differ (e.g. `HOST`, `PORT` in a `.env` file pointing to environment-specific backing services).
 
 ### IV. Backing Services
 
@@ -34,7 +34,10 @@ Treat backing services as attached resources (e.g. S3, SMTP, Redis).
 
 ### V. Build, Release, Run
 
-Strictly separate build and run stages.
+Strictly separate build and run stages:
+1. **Build** — compile code into an executable artifact (e.g. `docker build` → image)
+2. **Release** — combine artifact with config (e.g. image + `.env`) → versioned release (v1, v2, v3 or timestamped)
+3. **Run** — execute the release in the target environment
 
 ### VI. Processes
 
