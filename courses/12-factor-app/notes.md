@@ -45,7 +45,7 @@ Execute the app as one or more stateless processes. Twelve-factor processes are 
 
 ### VII. Port Binding
 
-Export services via port binding.
+Export services via port binding. The app is self-contained and binds to a port itself (e.g. Flask on port 5000) rather than relying on an external web server like Apache. This makes it easy to become a backing service for another app.
 
 ### VIII. Concurrency
 
