@@ -6,6 +6,14 @@
 
 ---
 
+## Why 12 Factor?
+
+Born from Heroku's experience deploying hundreds of thousands of apps, it codifies best practices for SaaS to solve recurring problems: painful onboarding, environment drift, poor scalability, and software erosion over time.
+
+**Core goals:** portability, deployability, scalability — without rewriting your app.
+
+---
+
 ## Factors
 
 ### I. Codebase
