@@ -61,11 +61,11 @@ Keep development, staging, and production as similar as possible. Gaps in tools,
 
 ### XI. Logs
 
-Treat logs as event streams.
+Treat logs as event streams. The app should never manage log files — just write to stdout and let the environment (e.g. Kubernetes, Datadog) capture, route, and store them.
 
 ### XII. Admin Processes
 
-Run admin/management tasks as one-off processes.
+Run admin/management tasks as one-off processes. Tasks like DB migrations or scripts should run in the same environment as the app (same release, same config) but as a separate one-off process — not baked into app startup.
 
 ---
 
