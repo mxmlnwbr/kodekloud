@@ -22,6 +22,7 @@ One codebase tracked in revision control, many deploys. Git is used for this rea
 
 ### II. Dependencies
 
+Explicitly declare (requirements.txt, package.json) and isolate dependencies (venv, docker).
 
 ### III. Config
 
