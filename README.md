@@ -1,15 +1,15 @@
 # Kubernetes Learning Path — KodeKloud
 
-Personal notes and progress tracking for the KodeKloud Kubernetes learning path.
+Personal notes and progress tracking for my KodeKloud courses.
 
 ## Courses
 
 | Course | Status | Notes |
 |--------|--------|-------|
-| [Kubernetes for Beginners](courses/kubernetes-for-beginners/notes.md) | 🔲 Not started | |
-| [Certified Kubernetes Administrator (CKA)](courses/cka/notes.md) | 🔲 Not started | |
-| [Certified Kubernetes Application Developer (CKAD)](courses/ckad/notes.md) | 🔲 Not started | |
-| [Kubernetes Challenges](courses/kubernetes-challenges/notes.md) | 🔲 Not started | |
+| [12 Factor App](courses/12-factor-app/notes.md) | 🔲 Not started | |
+| [Docker Basics](courses/docker-basics/notes.md) | 🔲 Not started | |
+| [Kubernetes Cluster Basics](courses/kubernetes-cluster-basics/notes.md) | 🔲 Not started | |
+| [Kustomize](courses/kustomize/notes.md) | 🔲 Not started | |
 
 ## Status Legend
 
