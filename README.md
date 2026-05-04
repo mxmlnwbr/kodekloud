@@ -6,7 +6,7 @@ Personal notes and progress tracking for my KodeKloud courses.
 
 | Course | Status | Notes |
 |--------|--------|-------|
-| [12 Factor App](courses/12-factor-app/notes.md) | 🔲 Not started | |
+| [12 Factor App](courses/12-factor-app/notes.md) | ✅ Completed | |
 | [Docker Basics](courses/docker-basics/notes.md) | 🔲 Not started | |
 | [Kubernetes Cluster Basics](courses/kubernetes-cluster-basics/notes.md) | 🔲 Not started | |
 | [Kustomize](courses/kustomize/notes.md) | 🔲 Not started | |
