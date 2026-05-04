@@ -57,7 +57,7 @@ Maximize robustness with fast startup and graceful shutdown. Processes should st
 
 ### X. Dev/Prod Parity
 
-Keep development, staging, and production as similar as possible.
+Keep development, staging, and production as similar as possible. Gaps in tools, time, or people between environments cause bugs that only appear in prod. Use the same backing services locally as in production (e.g. run Postgres locally, not SQLite).
 
 ### XI. Logs
 
