@@ -30,7 +30,7 @@ Store config in the environment.
 
 ### IV. Backing Services
 
-Treat backing services as attached resources.
+Treat backing services as attached resources (e.g. S3, SMTP, Redis).
 
 ### V. Build, Release, Run
 
@@ -38,7 +38,7 @@ Strictly separate build and run stages.
 
 ### VI. Processes
 
-Execute the app as one or more stateless processes.
+Execute the app as one or more stateless processes. Twelve-factor processes are stateless and share-nothing. Any state must be stored in a backing service such as a DB or Redis cache. Sticky sessions are a violation of twelve-factor and should never be used or relied upon.
 
 ### VII. Port Binding
 
